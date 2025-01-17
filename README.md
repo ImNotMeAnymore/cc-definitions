@@ -25,7 +25,7 @@ Then, properly configure the language server.
 This is done by adding a `.luarc.json` file to the base of the workspace, 
 and adding the following config to the created file:
 
-```json
+```jsonc
 {
     // Disable all Lua's standard library definitions,
     // definitions specifically for Cobalt are included.
