@@ -120,6 +120,7 @@ function shell.setPath(path) end
 --- ```
 --- 
 --- @param path string The path to resolve.
+--- @return string
 function shell.resolve(path) end
 
 --- Resolve a program, using the [program path](lua://shell.path) and list of [aliases](lua://shell.aliases).
