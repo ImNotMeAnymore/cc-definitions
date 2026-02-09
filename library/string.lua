@@ -119,7 +119,7 @@ function string.packsize(fmt) end
 --- @nodiscard
 --- @param s string | number The string to repeat.
 --- @param n number How many times to repeat the string.
---- @param sep string | number The seperator in between the repeated string.
+--- @param sep string | number? The seperator in between the repeated string, defaults to "".
 --- @return string # The output string.
 function string.rep(s, n, sep) end
 
