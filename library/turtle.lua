@@ -89,14 +89,12 @@ function turtle.down() end
 
 --- Rotate the turtle 90 degrees to the left.
 ---
---- @nodiscard
 --- @return boolean # Whether the turtle could successfully turn.
 --- @return string? # The reason the turtle could not turn.
 function turtle.turnLeft() end
 
 --- Rotate the turtle 90 degrees to the right.
 ---
---- @nodiscard
 --- @return boolean # Whether the turtle could successfully turn.
 --- @return string? # The reason the turtle could not turn.
 function turtle.turnRight() end
