@@ -20,6 +20,7 @@ peripheral = {}
 ---@class peripheral.wrapped
 ---@field getDocs fun(): table<string, string>
 ---@field getMetadata fun(): table<string, any> -- If Plethora is installed
+---@field [string] fun(...:any): any -- Any other method the peripheral might provide
 
 ---Get a table with all methods of a peripheral given its name
 ---@param name peripheral.name
