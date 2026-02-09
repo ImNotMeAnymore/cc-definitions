@@ -12,13 +12,13 @@ Installation is done by adding this repository as a submodule, then configuring 
 Add this repository as a git submodule using:
 
 ```sh
-git submodule add https://github.com/CelDaemon/cc-definitions libraries/cc-definitions
+git submodule add https://github.com/ImNotMeAnymore/cc-definitions libraries/cc-definitions
 ```
 
 Or clone the repository directly if the workspace is not a git repo:
 
 ```sh
-git clone https://github.com/CelDaemon/cc-definitions libraries/cc-definitions
+git clone https://github.com/ImNotMeAnymore/cc-definitions libraries/cc-definitions
 ```
 
 Then, properly configure the language server.
